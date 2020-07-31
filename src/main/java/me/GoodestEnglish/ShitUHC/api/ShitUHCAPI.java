@@ -21,4 +21,14 @@ public class ShitUHCAPI {
 
     }
 
+    /**
+     * This allows you to check if the scenario is enabled or not
+     *
+     * @param scenario The scenario you want to check
+     * @return the state of scenario, true = enabled, false = disabled
+     */
+    public boolean isScenarioEnabled(Scenario scenario) {
+        return false;
+    }
+
 }
