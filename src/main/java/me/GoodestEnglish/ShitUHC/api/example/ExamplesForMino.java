@@ -1,6 +1,5 @@
 package me.GoodestEnglish.ShitUHC.api.example;
 
-import me.GoodestEnglish.ShitUHC.ShitUHC;
 import me.GoodestEnglish.ShitUHC.api.ShitUHCAPI;
 import me.GoodestEnglish.ShitUHC.api.ShitUHCScenarioBuilder;
 import org.bukkit.Material;
