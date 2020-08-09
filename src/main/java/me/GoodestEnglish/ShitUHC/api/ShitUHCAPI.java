@@ -3,6 +3,8 @@ package me.GoodestEnglish.ShitUHC.api;
 import me.GoodestEnglish.ShitUHC.scenario.Scenario;
 import org.bukkit.entity.Player;
 
+import java.util.List;
+
 public class ShitUHCAPI {
 
     /**
@@ -23,6 +25,15 @@ public class ShitUHCAPI {
     }
 
     /**
+     * This allows you to get all enabled scenarios
+     *
+     * @return A List which contains all enabled scenario
+     */
+    public static List<Scenario> getAllEnabledScenario() {
+        return null;
+    }
+
+    /**
      * This allows you to check if the scenario is enabled or not
      *
      * @param scenario The scenario you want to check
@@ -40,6 +51,16 @@ public class ShitUHCAPI {
      */
     public static boolean isAlive(Player player) {
         return false;
+    }
+
+    /**
+     * Get the uhc time, as long
+     * If you want to get as int, remember to divide by 1000
+     *
+     * @return The uhc time
+     */
+    public static long getUHCTime() {
+        return -1;
     }
 
 }
