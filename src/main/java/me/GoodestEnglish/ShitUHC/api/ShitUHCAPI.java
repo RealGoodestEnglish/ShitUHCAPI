@@ -2,6 +2,7 @@ package me.GoodestEnglish.ShitUHC.api;
 
 import me.GoodestEnglish.ShitUHC.scenario.Scenario;
 import org.bukkit.entity.Player;
+import org.bukkit.plugin.IllegalPluginAccessException;
 
 import java.util.List;
 
@@ -60,6 +61,15 @@ public class ShitUHCAPI {
      * @return The uhc time
      */
     public static long getUHCTime() {
+        return -1;
+    }
+
+    /**
+     * Get the uhc current border
+     *
+     * @return The current border, as radius
+     */
+    public static int getUHCCurrentBorderSize() {
         return -1;
     }
 
